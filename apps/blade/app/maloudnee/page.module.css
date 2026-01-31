@@ -1,6 +1,14 @@
 .page {
-    min-width: 100vw;
-    min-height: 100vh;;
+    min-height: 100vh;
+    margin: 0 !important;
+    padding: 0 !important;
     background: #b1d8b7;
   }
-  
+
+.name {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 2rem;
+    color: #2e8b57;
+}
