@@ -146,7 +146,7 @@ export default function Page() {
                 marginTop: 6,
                 fontSize: 13,
               }}>
-                oh my full nme is maloudnee, pronounced ma-lood-knee. <br />
+                oh my full name is maloudnee, pronounced ma-lood-knee. <br />
                 i'm a haitan-american cs student who loves coding and learning new things. <br />
                 i graduate december 2026, or well thats the plan .. <br />
                 idk im not really much of a talker -_-
@@ -189,13 +189,101 @@ export default function Page() {
                 i'm a pretty fast learner, and strangely enough i love debugging .. <br />
                 for software development i love love love python duh, getting into sql and i love that too .. <br />
                 i prefer managing data, though i do love designing amd coding my designs to life. <br />
-                so i guess that means i love fullstack development? <br />
-                umm here are my top three languages:
+                so im into fullstack development <br />
               </p>
-              <img src="/blahblahblah.png" alt="langs" style={{ width: "100%", border: "2px solid #585f4b", borderRadius: 4}}/>
             </div>
+            <img
+              src="/kohaku.gif"
+              alt="kohaku"
+              style={{
+                width: "100%",
+                height: 200,
+                marginTop: 8,
+                border: "2px solid #585f4b",
+                display: "block",
+              }}
+            />
           </div>
         </div>
+          <aside style={{
+            marginTop: 12,
+            border: "2px solid #585f4b",
+            background: "#efedd6",
+            padding: 10,
+          }}
+          >
+            <div style={{
+              border: "2px solid #585f4b",
+              background: "#efedd6",
+              padding: 10,
+            }}>
+              <strong> get excited !! </strong>
+              <div style={{
+                marginTop: 6,
+                position: "relative",
+                paddingBottom: "30%",
+                height: 0,
+                overflow: "hidden",
+                border: "2px solid #585f4b",
+              }}>
+                <iframe 
+                src="https://www.youtube.com/embed/fkAL_LeCsZs?si=RBWKKDLw9ws9NI3C" 
+                title="Dr Stone Opening 2" 
+                width="100%"
+                height="80"
+                frameBorder="0"
+                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                loading="lazy"
+                >
+                </iframe>
+              </div>
+            </div>
+
+            <div
+            style={{
+              border: "2px solid #585f4b",
+              background: "#efedd6",
+              padding: 8,
+              textAlign: "center",
+            }}
+          >
+            <strong> my glorius king Senku </strong>
+            <img
+              src="/senku.gif"
+              alt="senku ishigami"
+              style={{
+                width: "100%",
+                marginTop: 8,
+                border: "2px solid #585f4b",
+                display: "block",
+              }}
+            />
+          <strong> go watch dr stone if you havent  ⊙ _ ⊙  </strong>
+          <p 
+          style={{ marginTop: 6, fontSize: 13 
+          }}>
+            yes i decided to just make this a dr stone themed page cuz why not <br />
+            senku is my second favorite anime character of all time, right after luffy <br />
+          </p>
+          </div>
+          <div style={{
+            marginTop: 12,
+            border: "2px solid #585f4b",
+            background: "#efedd6",
+            padding: 10,
+          }}>
+            <strong> half-aihh synopsis </strong>
+            <p style={{ marginTop: 6, fontSize: 13 }}>
+              As for what this anime is about, world basically ends, like all living beings are turned into stone statues. <br />
+              Then here comes this insane kid who has been counting the seconds since he's been petrified, <br />
+              thousands of years later he's unpetrified thanks to the power of bat poop. <br />
+              Now, he's on a mission to rebuild civilization with the power of science <br />
+              This was actually one of the first mangas I started collecting when I got into anime/manga <br />
+              I am like wayyyy behind on it though because well life. <br />
+              Anyways yeah, go watch it its super good !!
+            </p>
+          </div>
+          </aside>
       </div>
     </div>
   );
